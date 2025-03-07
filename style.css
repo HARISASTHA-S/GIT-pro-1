@@ -29,9 +29,17 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-      color: #fff; 
-      font-size: 100px;
-      font-weight: 400;
+    color: #fff; 
+    font-size: 100px;
+    font-weight: 400;
+    
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+/* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+.viewcontainer::-webkit-scrollbar {
+    display: none;
 }
 
 .keypadcontainer{
