@@ -22,18 +22,16 @@ body{
     align-items: center;
 }
 
-.viewcontainer{
+.viewcontainer {
     height: 30%;
     width: 90%;
-
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    color: #fff; 
+    color: #fff;
     font-size: 100px;
     font-weight: 400;
-    
-    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow: hidden; /* Hide overflow content */
     scrollbar-width: none; /* Hide scrollbar in Firefox */
 }
 
